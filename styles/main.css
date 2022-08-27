@@ -58,6 +58,11 @@ hr {
 
 .project-title {
     font-weight: bold;
+    display: inline;
+}
+
+.project-title-block {
+    display: block;
 }
 
 .project-link {
