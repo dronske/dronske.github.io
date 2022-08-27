@@ -5,10 +5,9 @@ body {
     font-weight: 400;
 }
 
-p {
-    font-style: italic;
+/* p {
     font-size: 1.2em;
-}
+} */
 
 .title {
     font-size: 2.4em;
@@ -55,4 +54,26 @@ hr {
     margin-right: auto;
     border: 0px;
     height: 1px;
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+.resume-section {
+    border: 1px solid;
+    border-image: linear-gradient(#EEAB31, #F9DD6F) 1;
+    padding: 15px 15px 0px 15px;
+    margin-bottom: 25px;
+}
+
+.resume-section:nth-of-type(even) {
+    border: 1px solid;
+    border-image: linear-gradient(#F9DD6F, #EEAB31) 1;
+    padding: 15px 15px 0px 15px;
+    margin-bottom: 25px;
+}
+
+.skills-list {
+    display: inline;
 }
