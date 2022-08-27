@@ -60,6 +60,15 @@ hr {
     font-weight: bold;
 }
 
+.project-link {
+    background: #F9C66F;
+    display: inline;
+    margin-left: 10px;
+    padding: 3px 5px 0 5px;
+    text-decoration: none;
+    color: white;
+}
+
 .resume-section {
     border: 1px solid;
     border-image: linear-gradient(#EEAB31, #F9DD6F) 1;
@@ -74,6 +83,13 @@ hr {
     margin-bottom: 25px;
 }
 
-.skills-list {
+#skills-list {
+    padding: 0;
+}
+
+#skills-list li {
+    background: #F9C66F;
+    padding: 5px;
     display: inline;
+    margin-right: 5px;
 }
